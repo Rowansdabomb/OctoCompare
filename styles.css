@@ -1,0 +1,51 @@
+.collapse-deleted-rows {
+    height: 0 !important;
+    visibility: collapse !important;
+    display: none;
+}
+
+.unhighlight-added-rows>.blob-num-addition,
+.unhighlight-added-rows>.blob-code-addition,
+.unhighlight-added-rows .blob-code-addition .x {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.exists {
+    margin-right: .2rem;
+}
+
+.file-ext-list {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  max-height: 300px;
+  background-color: white;
+  color:black;
+  margin: 1rem;
+  margin-bottom: 2rem;
+
+  display:flex;
+  flex-direction: column;
+  border: 1px solid #d1d5da;
+  border-radius: 3px;
+  overflow-y: scroll;
+  z-index:100;
+}
+
+.file-ext-list-item-text {
+  /* padding: 1rem; */
+  margin-left: .5rem;
+}
+
+.file-ext-list-item {
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+.file-ext-list-header {
+  width: 100%;
+  padding:.25rem;
+  margin-bottom: .25rem;
+  background-color:#e1e4e8;
+}
